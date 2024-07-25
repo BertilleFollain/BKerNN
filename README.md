@@ -2,7 +2,7 @@
 ## *Follain, B. and Bach, F. (2024), Enhanced Feature Learning via Regularisation: Integrating Neural Networks and Kernel Methods*
 
 ## What is this project for?
-This is the companion code to Follain, B. and Bach, F. (2024), Feature learning through regularisation in Neural Networks/Kernel fusion TODO add arxiv.
+This is the companion code to Follain, B. and Bach, F. (2024), Enhanced Feature Learning via Regularisation: Integrating Neural Networks and Kernel Methods https://arxiv.org/abs/2407.17280
 It contains the estimator **BKerNN** introduced in the previously cited article, the code to run the experiments from the article
 and the results of said experiments. **BKerNN** is a method for non-parametric regression with linear feature learning, 
 which consists in regularised empirical risk minimisation on a neural network kernel fusion, with the Brownian kernel. See the article for more details. The method is available through the class BKerNN in '/Methods/BKerNN.py'. It is easy to use thanks to compatibility with Scikit-learn. 
